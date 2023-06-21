@@ -1,0 +1,57 @@
+.cabecalho {
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu__humburguer-icon {
+    color: #DAFF01;
+}
+
+.menu__nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .5rem 1rem 1rem 1rem;
+    background-color: var(--cor-fundo-menu);
+}
+
+.menu-fechar {
+    color: #DAFF01;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.menu__lista {
+    list-style: none;
+    
+}
+
+.menu__lista:nth-child(1),
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3) {
+    border-bottom: 2px solid #fff;
+    padding: .5rem 0;
+}
+
+.menu__lista:last-child {
+    padding-top: .5rem;
+}
+
+.menu__lista--link {
+    text-decoration: none;
+    color: var(--fonte-branca);
+}
+
+.menu__lista--link:hover {
+    color: var(--fonte-hover);
+}
+
+.menu-atual {
+    font-weight: 700;
+    color: #DAFF01;
+}
