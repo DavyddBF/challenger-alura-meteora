@@ -1,5 +1,7 @@
 :root {
     --fonte: 'Montserrat', sans-serif;
+    --fonte-branca: #fff;
+    --fonte-hover: #8f8f8f;
     --cor-cabecalho: #000;
     --cor-fundo-menu: #343A40;
 }
