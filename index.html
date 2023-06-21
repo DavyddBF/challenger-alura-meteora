@@ -18,10 +18,10 @@
         <img class="cabecalho__logo" src="./assets/img/logo-meteora.svg" alt="Logo do Meteora">
         <i class="menu__humburguer-icon material-icons">menu</i>
         <nav class="menu__nav">
+            <i class="menu-fechar material-icons">close</i>
             <ul>
-                <li class="menu-fechar">X</li>
                 <li class="menu__lista">
-                    <a class="menu__lista--link" href="#">Home</a>
+                    <a class="menu__lista--link menu-atual" href="#">Home</a>
                 </li>
                 <li class="menu__lista">
                     <a class="menu__lista--link" href="#">Nossas lojas</a>
@@ -36,7 +36,11 @@
         </nav>
     </header>
     <main>
-        <input type="text" placeholder="Digite o produto"><button>Search</button>
+        <section>
+            <input type="text" placeholder="Digite o produto"><button>Search</button>
+        </section>
     </main>
+
+    <script src="./assets/js/menuHumburguer.js"></script>
 </body>
 </html>
