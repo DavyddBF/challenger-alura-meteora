@@ -1,0 +1,21 @@
+.buscar {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buscar__input {
+    font-size: 13px;
+    padding: .7rem 1rem .7rem;
+}
+
+.buscar__btn {
+    font-weight: 500;
+    padding: .7rem 1.5rem;
+    margin-left: 1rem;
+}
+
+.buscar__input, .buscar__btn {
+    border: 2px solid #000;
+    background-color: transparent;
+}
