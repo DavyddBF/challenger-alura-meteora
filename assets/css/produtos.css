@@ -1,0 +1,47 @@
+.produtos__titulo {
+    padding: 3rem 0 2rem 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.produto__card {
+    margin: 2rem 0;
+    border: 2px solid rgb(0, 0, 0, .2);
+}
+
+.produto__card div {
+    padding: 1rem;
+}
+
+.produto__card-titulo,
+.produto__card-descricao,
+.produto__card-preco {
+    padding-bottom: 1rem;
+}
+
+.produto__card-imagem {
+    width: 100%;
+}
+
+.produto__card-descricao {
+    color: #212529;
+    font-size: 13px;
+}
+
+.produto__card-preco {
+    font-weight: 700;
+}
+
+.produto__card-btn {
+    background-color: var(--cor-btn-vermais);
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    font-weight: 500;
+}
+
+.produto__card-btn:hover {
+    text-decoration: underline;
+}
