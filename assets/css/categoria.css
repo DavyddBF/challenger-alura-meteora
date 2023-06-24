@@ -1,0 +1,27 @@
+.categoria__titulo {
+	font-size: 28px;
+	font-weight: 500;
+	padding: 1.5rem 0;
+	text-align: center;
+}
+
+.categoria__cards {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 1rem;
+	grid-template-columns: 1fr 1fr;
+}
+
+.categoria__imagem {
+	display: block;
+	width: 100%;
+}
+
+.categoria__imagem-titulo {
+	background-color: #000;
+	color: #fff;
+	font-weight: 500;
+	padding: .5rem;
+	text-align: center;
+}
