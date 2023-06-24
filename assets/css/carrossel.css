@@ -1,0 +1,92 @@
+/* Config das Imagens do Carrossel e outros estilos base */
+
+.carrossel__img-1 {
+    background-image: url('../img/Mobile/Banner\ carousel\ 1\ _\ 375.png');
+}
+
+.carrossel__img-2 {
+    background-image: url('../img/Mobile/Banner\ carousel\ 2\ _\ 375.png');
+}
+
+.carrossel__img-3 {
+    background-image: url('../img/Mobile/Banner\ carousel\ 3\ _\ 375.png');
+}
+
+.carrossel__img-1,
+.carrossel__img-2,
+.carrossel__img-3 {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.carrossel__img-wrapper {
+    position: absolute;
+    text-align: center;
+    padding: 1.5rem 2rem 2rem 2rem;
+    top: 50%;
+    color: #fff;
+}
+
+.carrossel__img-titulo {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.carrossel__img-descricao {
+    padding: 1rem 0;
+}
+
+@media screen and (min-width: 425px) {
+    .carrossel__img-1,
+    .carrossel__img-2,
+    .carrossel__img-3 {
+        height: 65vh;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+/* Configurações do SwiperJS - Referente ao Carrossel */
+
+.swiper-button-prev {
+    padding-left: 2rem;
+}
+
+.swiper-button-next {
+    padding-right: 2rem;
+}
+
+.swiper-button-next::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.swiper-button-prev::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 51px;
+    height: 3px;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.swiper-pagination {
+    padding-bottom: 1rem;
+}
